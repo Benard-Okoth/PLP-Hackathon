@@ -148,3 +148,30 @@ footer {
     background-color: #000;
     color: white;
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .service {
+        flex-direction: column;
+    }
+
+    .service img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .slide img {
+        width: 100%;
+        height: auto;
+    }
+} 
